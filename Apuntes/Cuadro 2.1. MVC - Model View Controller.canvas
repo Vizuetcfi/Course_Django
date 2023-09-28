@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"9008650ca3f05879","type":"group","x":-760,"y":-529,"width":1320,"height":1009,"color":"3","label":"MVC - Model View Controller"},
+		{"id":"c0e30292cfe40841","type":"file","file":"Pasted image 20230927230526.png","x":92,"y":-253,"width":0,"height":0},
+		{"id":"64cd25adb06f7a7a","type":"text","text":"El modelo puede ser considerado como una clase","x":-712,"y":-444,"width":196,"height":98,"color":"6"},
+		{"id":"08baf36988923982","type":"text","text":"1. El controlador es la función que ejecuta la lógica de las aplicaciones.\n2. Ejecuta las operaciones de la aplicación","x":-757,"y":-146,"width":286,"height":204,"color":"6"},
+		{"id":"8ce32c355c118260","type":"text","text":"Controller","x":-339,"y":-14,"width":140,"height":60,"color":"5"},
+		{"id":"8a4c08e1c105881c","x":-394,"y":120,"width":250,"height":60,"type":"text","text":"URL´s de la pagina."},
+		{"id":"ca24fa26a5e44120","type":"text","text":"Las vistas muestran la información en la pantalla","x":206,"y":90,"width":250,"height":60},
+		{"id":"35d59b95be797277","type":"text","text":"El usuario reliza las peticiones en el navegador, mediante una URL.","x":-144,"y":266,"width":281,"height":91},
+		{"id":"6e26d11623193691","type":"text","text":"El controlador pasa los datos a la vista","x":-44,"y":-44,"width":250,"height":60},
+		{"id":"f44b23f0937714f5","type":"text","text":"View","x":318,"y":-44,"width":120,"height":60,"color":"5"},
+		{"id":"ac8e9217d6bb38de","type":"file","file":"Course_Django/img/db.png","x":338,"y":-322,"width":142,"height":142,"color":"5"},
+		{"id":"59f58d23c3d0c442","type":"text","text":"El modelo se conecta a la BD a través de un ORM - Object Relational Maping","x":-38,"y":-376,"width":259,"height":121},
+		{"id":"ef7b6fa186aa870d","type":"text","text":"Model","x":-349,"y":-375,"width":125,"height":60,"color":"5"},
+		{"id":"6c5362c534310e0b","type":"text","text":"El controlador se comunica con los modelos, consultandolos.","x":-391,"y":-225,"width":195,"height":121},
+		{"id":"c70cfd87c3862aa7","type":"file","file":"Course_Django/img/www.png","x":-482,"y":269,"width":177,"height":177,"color":"5"},
+		{"id":"ef26f9ae05e969ed","type":"file","file":"Course_Django/img/user_icon.png","x":299,"y":266,"width":159,"height":159,"color":"5"}
+	],
+	"edges":[
+		{"id":"7e7aeb00da2ec601","fromNode":"ef26f9ae05e969ed","fromSide":"left","toNode":"35d59b95be797277","toSide":"right","color":"4"},
+		{"id":"8dbdc21584cc9899","fromNode":"35d59b95be797277","fromSide":"left","toNode":"c70cfd87c3862aa7","toSide":"right","color":"4"},
+		{"id":"3ffc6997d2ba5449","fromNode":"8ce32c355c118260","fromSide":"left","toNode":"08baf36988923982","toSide":"right","color":"6"},
+		{"id":"a9c4c9831011a8ca","fromNode":"6c5362c534310e0b","fromSide":"top","toNode":"ef7b6fa186aa870d","toSide":"bottom","fromEnd":"arrow","color":"4"},
+		{"id":"6a58d06aec700267","fromNode":"8ce32c355c118260","fromSide":"top","toNode":"6c5362c534310e0b","toSide":"bottom","fromEnd":"arrow","color":"4"},
+		{"id":"636ddaf12e0d8efa","fromNode":"ef7b6fa186aa870d","fromSide":"left","toNode":"64cd25adb06f7a7a","toSide":"right","color":"6"},
+		{"id":"5e38b752802246d5","fromNode":"ef7b6fa186aa870d","fromSide":"right","toNode":"59f58d23c3d0c442","toSide":"left","fromEnd":"arrow","color":"4"},
+		{"id":"68eee64b247a317f","fromNode":"59f58d23c3d0c442","fromSide":"right","toNode":"ac8e9217d6bb38de","toSide":"left","fromEnd":"arrow","color":"4"},
+		{"id":"91fe1c2bf9d3055e","fromNode":"8ce32c355c118260","fromSide":"right","toNode":"6e26d11623193691","toSide":"left","color":"4"},
+		{"id":"47a362e1191af31b","fromNode":"6e26d11623193691","fromSide":"right","toNode":"f44b23f0937714f5","toSide":"left","color":"4"},
+		{"id":"b35e2510fa237768","fromNode":"f44b23f0937714f5","fromSide":"bottom","toNode":"ca24fa26a5e44120","toSide":"top","color":"4"},
+		{"id":"28b27033f90389de","fromNode":"ca24fa26a5e44120","fromSide":"bottom","toNode":"ef26f9ae05e969ed","toSide":"top","color":"4"},
+		{"id":"fb6827e24238a032","fromNode":"c70cfd87c3862aa7","fromSide":"top","toNode":"8a4c08e1c105881c","toSide":"bottom","color":"4"},
+		{"id":"53d055e606bbb6f9","fromNode":"8a4c08e1c105881c","fromSide":"top","toNode":"8ce32c355c118260","toSide":"bottom","color":"4"}
+	]
+}
