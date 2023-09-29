@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"7d2826800ea2f16e","x":-616,"y":-497,"width":1232,"height":994,"type":"group","label":"MTV - Model Template View"},
+		{"id":"cd582852976e1976","type":"text","text":"El modelo puede ser considerado como una clase","x":-596,"y":-422,"width":196,"height":98,"color":"6"},
+		{"id":"67774e6ae79849d3","type":"text","text":"El modelos es considerado una abstraccion de los datos de la BD.","x":-314,"y":-477,"width":322,"height":104,"color":"6"},
+		{"id":"f17ddb94e879972b","type":"text","text":"La vista se comunica con los modelos, consultándolos.","x":-233,"y":-183,"width":195,"height":121,"color":"4"},
+		{"id":"97eade92f00e87c7","type":"text","text":"View","x":-178,"y":21,"width":140,"height":60,"color":"1"},
+		{"id":"832d67b0c485e1a5","type":"text","text":"1. La vista es la función que ejecuta la lógica de las aplicaciones.\n2. Ejecuta las operaciones de la aplicación","x":-596,"y":-81,"width":286,"height":204,"color":"6"},
+		{"id":"77ed758a22715288","type":"file","file":"Course_Django/img/www.png","x":-355,"y":300,"width":177,"height":177,"color":"1"},
+		{"id":"568943a8ca9ed339","type":"text","text":"Model","x":-278,"y":-300,"width":125,"height":60,"color":"1"},
+		{"id":"77783f9c1f1e9453","type":"text","text":"El usuario reliza las peticiones en el navegador, mediante una URL.","x":48,"y":254,"width":281,"height":91,"color":"4"},
+		{"id":"26b9f7b2a0babfd5","type":"text","text":"URL´s de la pagina.","x":-178,"y":153,"width":250,"height":60,"color":"4"},
+		{"id":"e75fd894132d29f7","type":"text","text":"El controlador pasa los datos a la vista","x":113,"y":-81,"width":250,"height":60,"color":"4"},
+		{"id":"33dece268596b4bb","type":"text","text":"El modelo se conecta a la BD a través de un **ORM** - Object Relational Maping","x":104,"y":-373,"width":259,"height":121,"color":"4"},
+		{"id":"dd1d675248d4fabf","type":"file","file":"Course_Django/img/db.png","x":454,"y":-300,"width":142,"height":142,"color":"1"},
+		{"id":"40761e9ae55e012c","type":"file","file":"Pasted image 20230927230526.png","x":208,"y":-231,"width":0,"height":0},
+		{"id":"cfd7a21937029c7d","type":"text","text":"Template","x":454,"y":-62,"width":142,"height":50,"color":"1"},
+		{"id":"0638ff5c78387286","type":"text","text":"Las vistas muestran la información en la pantalla","x":329,"y":93,"width":250,"height":60,"color":"4"},
+		{"id":"d9a4796959c280ac","type":"file","file":"Course_Django/img/user_icon.png","x":420,"y":254,"width":159,"height":159,"color":"1"}
+	],
+	"edges":[
+		{"id":"24bef4b6897d6397","fromNode":"568943a8ca9ed339","fromSide":"left","toNode":"cd582852976e1976","toSide":"right","color":"6"},
+		{"id":"bed1aff01ad80d4e","fromNode":"568943a8ca9ed339","fromSide":"top","toNode":"67774e6ae79849d3","toSide":"bottom","color":"6"},
+		{"id":"ec5b09de7ebb3ee9","fromNode":"f17ddb94e879972b","fromSide":"top","toNode":"568943a8ca9ed339","toSide":"bottom","fromEnd":"arrow","color":"4"},
+		{"id":"6622bfa58041b822","fromNode":"97eade92f00e87c7","fromSide":"top","toNode":"f17ddb94e879972b","toSide":"bottom","fromEnd":"arrow","color":"4"},
+		{"id":"e3bf5fafff356df2","fromNode":"97eade92f00e87c7","fromSide":"left","toNode":"832d67b0c485e1a5","toSide":"right","color":"6"},
+		{"id":"cb5161708d467dbc","fromNode":"97eade92f00e87c7","fromSide":"right","toNode":"e75fd894132d29f7","toSide":"left","color":"4"},
+		{"id":"a25f421fc387eff4","fromNode":"26b9f7b2a0babfd5","fromSide":"top","toNode":"97eade92f00e87c7","toSide":"bottom","color":"4"},
+		{"id":"0c6ba410cc6954b7","fromNode":"77ed758a22715288","fromSide":"top","toNode":"26b9f7b2a0babfd5","toSide":"bottom","color":"4"},
+		{"id":"67269e932c3c6935","fromNode":"77783f9c1f1e9453","fromSide":"left","toNode":"77ed758a22715288","toSide":"right","color":"4"},
+		{"id":"d7e5dd462d139e53","fromNode":"568943a8ca9ed339","fromSide":"right","toNode":"33dece268596b4bb","toSide":"left","fromEnd":"arrow","color":"4"},
+		{"id":"2d7e56235e0e5c06","fromNode":"d9a4796959c280ac","fromSide":"left","toNode":"77783f9c1f1e9453","toSide":"right","color":"4"},
+		{"id":"0a7c416e56a4ec2a","fromNode":"e75fd894132d29f7","fromSide":"right","toNode":"cfd7a21937029c7d","toSide":"left","color":"4"},
+		{"id":"9f771e6f77006c2e","fromNode":"33dece268596b4bb","fromSide":"right","toNode":"dd1d675248d4fabf","toSide":"left","fromEnd":"arrow","color":"4"},
+		{"id":"ef803e48816d3845","fromNode":"cfd7a21937029c7d","fromSide":"bottom","toNode":"0638ff5c78387286","toSide":"top","color":"4"},
+		{"id":"f98b77c1ea59c086","fromNode":"0638ff5c78387286","fromSide":"bottom","toNode":"d9a4796959c280ac","toSide":"top","color":"4"}
+	]
+}
